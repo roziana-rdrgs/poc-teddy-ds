@@ -1,0 +1,9 @@
+{
+  "name": "teddy-ds-react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/teddy-ds-react/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project teddy-ds-react --web",
+  "targets": {}
+}

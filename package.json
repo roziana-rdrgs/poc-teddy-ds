@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nx/angular": "^19.4.0",
+    "nx": "^19.3.2"
+  }
+}
