@@ -14,23 +14,25 @@ interface ButtonBaseStyleProps {
   backgroundColor: string;
   color: string;
   borderRadius: string;
-  fontFamily: string
+  fontFamily: string;
+  fontSize: string
 }
 
 export const ButtonBaseStyle: ButtonBaseStyleProps = {
   size: {
     small: {
-      height: "30px",
+      height: "38px",
       width: "200px"
     },
     large: {
-       height: "30px",
+       height: "42px",
        width: "320px"
     }
   },
   backgroundColor: "#043533",
   color: "#FFF",
   borderRadius: "12px",
-  fontFamily: `"Geologica", sans-serif`
+  fontFamily: `"Geologica", sans-serif`,
+  fontSize: "20px"
 
 }

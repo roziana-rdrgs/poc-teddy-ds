@@ -58,3 +58,12 @@ React**
 **Angular**
 
     <lib-teddy-ds-button [size]="'large'"></lib-teddy-ds-button>
+
+### Considerações
+  - Pontos positivos:
+      - Conseguimos ter projetos separados mantendo as tecnologias que já são utilizadas e podendo reaproveitar as libs já existentes;
+      - Estilizações em um só lugar;
+
+  - Pontos negativos:
+      - A lib como um todo pode se tornar um pouco "pesada" por conter as dependencias de todos os projetos;
+      - Alterações feitas devem levar em consideração ambos os projetos;

@@ -20,6 +20,7 @@ export const Button = ({
   return (
     <StyledButton
       size={size}
+      onClick={() => alert("Button React")}
       {...props}
     >
       {title}

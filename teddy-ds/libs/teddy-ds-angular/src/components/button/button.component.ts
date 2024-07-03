@@ -15,6 +15,8 @@ import {ButtonBaseStyle} from "./../../../../shared/design-tokens"
       background-color: ${ButtonBaseStyle.backgroundColor};
       color: ${ButtonBaseStyle.color};
       border-radius: ${ButtonBaseStyle.borderRadius};
+      font-family: ${ButtonBaseStyle.fontFamily};
+      font-size: ${ButtonBaseStyle.fontSize};
     }`
   ]
 })

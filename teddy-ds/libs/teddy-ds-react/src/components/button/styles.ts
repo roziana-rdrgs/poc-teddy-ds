@@ -8,5 +8,7 @@ export const StyledButton = styled.button<StyledButtonProps>`
     background-color: ${ButtonBaseStyle.backgroundColor};
     color: ${ButtonBaseStyle.color};
     border-radius: ${ButtonBaseStyle.borderRadius};
+    font-family: ${ButtonBaseStyle.fontFamily};
+    font-size: ${ButtonBaseStyle.fontSize};;
   `}
 `;
