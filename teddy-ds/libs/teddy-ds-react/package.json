@@ -1,5 +1,5 @@
 {
-  "name": "@teddy-ds/teddy-ds-react",
+  "name": "@roziana/teddy-ds-react",
   "version": "2.0.2",
   "main": "./index.js",
   "types": "./index.d.ts",

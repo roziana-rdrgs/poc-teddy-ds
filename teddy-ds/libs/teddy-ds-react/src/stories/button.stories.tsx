@@ -4,6 +4,7 @@ import { Button  } from './../components';
 const meta: Meta<typeof Button> = {
   component: Button,
   title: 'Button React',
+  tags: ["autodocs"],
 };
 export default meta;
 type Story = StoryObj<typeof Button>;
