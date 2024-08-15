@@ -5,14 +5,16 @@ import {ButtonProps} from "./../../../../shared/types";
 
 
 interface ButtonPropsReact extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, keyof ButtonProps>, ButtonProps  {
-  tooltip: string
+  tooltip?: string
 }
 
 
 export const Button = ({
   children,
-  title = "",
+  label = "",
   className = "",
+  tooltip = "",
+  onClick,
   size,
   ...props
 }: ButtonPropsReact) => {
@@ -20,10 +22,10 @@ export const Button = ({
   return (
     <StyledButton
       size={size}
-      onClick={() => alert("Button React")}
+      onClick={onClick}
       {...props}
     >
-      {title}
+      {label}
 
     </StyledButton>
 

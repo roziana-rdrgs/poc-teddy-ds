@@ -12,6 +12,6 @@ type Story = StoryObj<typeof Button>;
 export const Primary = {
   args: {
     size: "large",
-    title: "Button React"
+    label: "Button React"
   },
 };
